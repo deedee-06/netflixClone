@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+}
+.image img{
+    width: 350px;
+    height: 250px;
+    margin-top: 200px;
+}
+image p{
+    font-size: smaller;
+}
+h4{
+    color:rgb(0, 124, 128);
+}
+li{
+    color: rgb(0, 124, 128);
+}
+aside{
+    float: right;
+    margin-top: 200px;
+    font-size: small;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+aside p{
+    font-size: 30px;
+}
+aside button{
+   background-color: #008099;
+   width: 150px;
+   border-radius: 30px;
+   padding: 4px;
+   color: white;
+   font-size: 20px;
+   border-color: #008099;
+}
+
+.contact{
+text-align: center;
+margin-top:300px;
+font-size: 30px;
+}
+.fa{
+padding: 5px;
+color: black;
+background-color: white;
+border-radius: 100%;
+} 
