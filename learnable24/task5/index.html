@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Trading Tree</title>
+    <style>
+        * {
+            box-sizing: content-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 80px;
+            background-color: rgb(62, 150, 190);
+        }
+
+        #animalFeature{
+            border: 2px solid white;
+            height: 450px;
+            width: 400px;
+            margin: 15px;            
+        }
+
+        #animalFeature header{
+            font-weight: 600;
+            font-size: 1.3em;
+            display: flex;
+            gap: 140px;
+            padding: 10px;
+
+        }
+
+         .prairieDog-Container{
+           border:15px solid rgb(97, 6, 97) ; 
+           margin: 10px;
+           height: 400px;
+           
+        }
+        #animalFeature .number1{
+            border: 2.5px solid rgb(137, 16, 148);
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            text-align: center;
+            color:rgb(240, 226, 226);
+            background-color: rgb(63, 7, 100);
+        }
+
+         .mockingBird-Container{
+           border:15px solid rgb(235, 122, 16);
+           margin: 10px;
+           height: 400px;
+        }
+
+        #animalFeature .number2{
+            border: 2.5px solid rgb(223, 159, 23);
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            text-align: center;
+            color:rgb(240, 226, 226);
+            background-color: rgb(235, 122, 16);;
+        }
+
+
+         .anglerFish-Container{
+           border:15px solid rgb(236, 21, 21);
+           margin: 10px;
+           height: 400px;
+        }
+
+          #animalFeature .number3{
+            border: 2.5px solid rgb(226, 69, 21);
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            text-align: center;
+            color:rgb(240, 226, 226);
+            background-color: rgb(236, 21, 21);
+        }
+
+        main{
+            display: flex;
+            flex-direction: column;
+          padding:10px;
+            height: 320px;
+            width: 270px;
+        }
+
+        .image{
+            flex: 50%;
+            border: 3px solid rgb(236, 206, 206);
+            margin-bottom: 15px;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        
+        article{
+            flex: 50%;
+            border: 3px solid rgb(236, 206, 206);
+            color:rgb(197, 189, 189);
+            text-align: center;
+            line-height: 18px;
+            
+        }
+        article p{
+            background-color: rgba(0, 0, 0, 0.897);
+            padding:5px;
+        }
+
+        
+    </style>
+
+</head>
+
+<body>
+    <section id="animalFeature">
+        <div class="prairieDog-Container">
+            
+            <header> 
+                <p>Prairie Dog</p>
+                <p class="number1">13</p>
+            </header>
+
+            <main>
+                <section class="image">
+                    <img src="Images/prairieDog.jpg" alt="Prairie Dog">
+                </section>
+            
+                <article>
+                    <p>* Prairie dogs are barrowing rodents living in the
+                        grassland of western and central North America.
+                    </p>
+                    <p>*Their underground colonies provide habitats for
+                        nearly 150 other species.
+                    </p>
+                    <p>*Prairie dogs have a collection of high-pitched
+                        barks that signal the presence of specific enemies.
+                    </p>
+                </article>
+            </main>
+        </div>
+        
+    </section>
+
+    <section id="animalFeature">
+        <div class="mockingBird-Container">
+            <header>
+                <p>Mockingbird</p>
+                <p class="number2">9</p>
+            </header>
+            <main>
+                <section class="image">
+                    <img src="Images/mockingBird.jpg" alt="Mocking Bird">
+                </section>
+            
+                <article>
+                    <p>* Mockingbirds get their name from their ability to
+                        mimic the sounds of animals and other noises.
+                    </p>
+                    <p>*Males may learn 200 or more songs over the
+                        course of their lives.
+                    </p>
+                    <p>*Mockingbirds sing throughout the day and often
+                        into the night, especially during a full moon.
+                    </p>
+                </article>
+            </main>
+        </div>
+       
+    </section>
+
+    <section id="animalFeature">
+        <div class="anglerFish-Container">
+            <header>
+                <p>Anglerfish</p>
+                <p class="number3">13</p>
+            </header>
+            <main>
+                <section class="image">
+                    <img src="Images/anglerfish.avif" alt="Anglerfish">
+                </section>
+            
+                <article>
+                    <p>*Anglerfish live in complete darkness at the
+                        bottom of the Antarctic and Atlantic oceans.
+                    </p>
+                    <p>*They have an antenna-like filament extending
+                        from their head used to attract prey.
+                    </p>
+                    <p>*There are over 200 known species of Anglerfish
+                    </p>
+                </article>
+            </main>
+        </div>
+        
+    </section>
+</body>
+
+</html>
