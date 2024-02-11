@@ -16,7 +16,6 @@ body {
 }
 
 header img {
-    height: 40px;
     width: 100px;
     margin-top: 20px;
     padding-left: 150px;
@@ -24,11 +23,11 @@ header img {
 
 main {
     background-color: rgba(0, 0, 0, 0.671);
-    height: 350px;
-    width: 300px;
+    height: 300px;
+    width: 250px;
     color: rgb(138, 136, 136);
-    margin: 5px 500px;
-    padding: 20px;
+    margin: 5px 600px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,6 +38,7 @@ main {
     h1 {
         color: rgb(253, 247, 247);
         margin-bottom: 20px;
+        font-size: 1em;
     }
 }
 
@@ -49,7 +49,7 @@ main {
 .signInContainer .form input {
     margin-bottom: 10px;
     height: 30px;
-    width: 250px;
+    width: 200px;
     border: none;
     border-radius: 3px;
     padding-left: 15px;
@@ -67,8 +67,8 @@ main {
     background-color: red;
     border: none;
     border-radius: 3px;
-    width: 265px;
-    height: 35px;
+    width: 215px;
+    height: 30px;
     color: rgb(255, 255, 255);
     font-weight: 600;
     font-size: 1.25em;
@@ -95,9 +95,12 @@ main {
     color: rgb(138, 182, 182)
 }
 
-.fb {
+.section2{
+    width: 215px;
+}
+
+.section2 .fb {
     margin-top: 40px;
-    padding-left: 45px;
     display: flex;
     align-items: center;
     justify-items: center;
@@ -111,17 +114,17 @@ main {
 
 .fb a {
     text-decoration: none;
-    font-weight: 600;
+    font-size: 0.8em;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 15px;
+    padding-left: 10px;
     color: rgb(138, 136, 136);
 
 }
 
 .new {
-    padding-left: 45px;
     margin-top: 20px;
     font-weight: 600;
+    font-size: 0.9em;
 }
 
 .new a {
@@ -130,9 +133,9 @@ main {
 }
 
 .learnMore {
-    padding-left: 45px;
     margin-top: 20px;
-    font-size: 0.86em;
+    font-size: 0.6em;
+    font-weight: 600;
 }
 
 .learnMore a {
@@ -142,33 +145,35 @@ main {
 
 footer {
 
-    height: 150px;
+    height: 145px;
     color: rgb(138, 136, 136);
     background-color: rgba(0, 0, 0, 0.664);
     padding-top: 20px;
-    font-size: 0.7em;
-    padding-left: 350px;
+    padding-left: 380px;
+    margin-top: 18px;
+    font-size: 0.8em;
 }
 
 .list {
     display: flex;
-    gap: 20px;
-    margin-top: 20px;
+    gap: 60px;
+    margin-top: 10px;
 }
 
 .list ul {
     list-style: none;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 .list .terms {
     display: flex;
-    gap: 20px;
+    gap: 60px;
 }
 
 .dropDown {
     border: 1px solid rgb(182, 182, 182);
     border-radius: 3px;
+    margin-top: 15px;
     width: 100px;
     height: 30px;
     display: flex;

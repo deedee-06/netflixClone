@@ -1,21 +1,74 @@
-*{
-    padding:0;
+* {
+    padding: 0;
     margin: 0;
     box-sizing: content-box;
 }
 
-body{
+body {
     background-color: black;
     height: 90vh;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header img{
+header img {
     width: 100px;
     margin-top: 20px;
     padding-left: 30px;
 }
 
-main{
-    
+main {
+    margin-top: 100px;
+}
+
+main p {
+    text-align: center;
+    color: rgb(243, 237, 237);
+    font-size: 2.25em;
+}
+
+main .profiles {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+
+}
+
+.profiles div img {
+    height: 150px;
+}
+
+.profiles div p {
+    font-size: 1em;
+    margin-top: 5px;
+    color: rgb(138, 136, 136);
+}
+
+.profiles .add img {
+    height: 50px;
+    width: 50px;
+    padding: 45px;
+}
+
+.profiles .add p {
+    margin-top: 15px;
+}
+
+.submit {
+    text-align: center;
+    padding-top: 6px;
+    margin-left: 600px;
+    margin-top: 50px;
+    height: 25px;
+    width: 200px;
+    border: 1px solid rgb(138, 136, 136);
+    background-color: black;
+
+}
+
+.submit input {
+    background-color: black;
+    border: none;
+    color: rgb(138, 136, 136);
 }
