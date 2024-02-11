@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: black;
+    background-image: url(../images/image\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header img {
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    padding-left: 150px;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.671);
+    height: 350px;
+    width: 300px;
+    color: rgb(138, 136, 136);
+    margin: 5px 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signInContainer {
+    h1 {
+        color: rgb(253, 247, 247);
+        margin-bottom: 20px;
+    }
+}
+
+.signInContainer .form {
+    margin-top: 10px;
+}
+
+.signInContainer .form input {
+    margin-bottom: 10px;
+    height: 30px;
+    width: 250px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 15px;
+    background-color: rgba(53, 49, 49, 0.904);
+    color: #615e5e;
+    font-weight: 600;
+}
+
+.signInContainer .sign {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.signInContainer .sign input {
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    width: 265px;
+    height: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+.signInContainer .help {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.help input {
+    color: rgb(182, 182, 182);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    padding-left: 10px;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.help a {
+    text-decoration: none;
+    font-size: 0.8em;
+    color: rgb(138, 182, 182)
+}
+
+.fb {
+    margin-top: 40px;
+    padding-left: 45px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+
+}
+
+.fb img {
+    height: 25px;
+}
+
+.fb a {
+    text-decoration: none;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    color: rgb(138, 136, 136);
+
+}
+
+.new {
+    padding-left: 45px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.new a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.learnMore {
+    padding-left: 45px;
+    margin-top: 20px;
+    font-size: 0.86em;
+}
+
+.learnMore a {
+    text-decoration: none;
+    color: rgb(19, 19, 238);
+}
+
+footer {
+
+    height: 150px;
+    color: rgb(138, 136, 136);
+    background-color: rgba(0, 0, 0, 0.664);
+    padding-top: 20px;
+    font-size: 0.7em;
+    padding-left: 350px;
+}
+
+.list {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.list ul {
+    list-style: none;
+    line-height: 30px;
+}
+
+.list .terms {
+    display: flex;
+    gap: 20px;
+}
+
+.dropDown {
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7em;
+}
+
+.dropDown img {
+    padding-right: 10px;
+    height: 15px;
+}
+
+.dropDown select {
+    border: none;
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0.671);
+    color: rgb(138, 136, 136);
+}
