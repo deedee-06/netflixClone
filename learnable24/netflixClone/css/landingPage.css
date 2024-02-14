@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: #141414;
+    color: white;
+    max-height: 100vh;
+    max-width: 100%;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+}
+
+.navBar{
+    display: flex;
+        align-items: center;
+        justify-content:space-evenly
+}
+
+.navBar .netflix{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.navBar .netflix img {
+    width: 20%;
+    height: 30px;
+}
+
+.navBar .list ul {
+    display: flex;
+    gap: 20px;
+}
+
+.navBar .list ul li {
+    list-style: none;
+}
+
+ .navBar .icons{
+    display: flex;
+    gap: 20px;
+}
+.navBar .icons img{
+    height: 15px;
+    width:5%;
+}
+
+.navBar .icons .profilePage{
+    display: flex;
+    /* width: 50%; */
+}
+.navBar .icons .profilePage #dropDown{
+    height: 10px;
+    width: 30%;
+}
+
+main .yanimda{
+    height: 800px;
+    width: 100%;
+    background-image: url(/images/main.png);
+}
+
+.yanimda #one{
+       /* height: 10px; */
+}
+
+h2 {
+    white-space: pre-line;
+    font-size: 2em;
+}
