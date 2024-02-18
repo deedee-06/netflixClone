@@ -83,10 +83,10 @@ header {
 
 main .yanimda {
     background-image: url(/images/main.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 520px;
-        width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    width: 100%;
     padding-left: 50px;
     padding-top: 207px;
 
@@ -336,12 +336,12 @@ article {
 }
 
 .topRankImages div #topRankImg {
-    height: 178px;
+    height: 176px;
     padding-right: 5px;
 }
 
 .topRankImages div #topRankNumber {
-    height: 178px;
+    height: 176px;
     padding-right: 5px;
 }
 
@@ -432,7 +432,7 @@ footer {
 
 footer .socialIcons img {
     height: 16px;
-   padding: 0px 10px 0px 0px;
+    padding: 0px 10px 0px 0px;
 }
 
 .footerList {
@@ -459,7 +459,7 @@ footer .socialIcons img {
     font-size: 0.8em;
 }
 
-footer .est{
+footer .est {
     font-size: 1em;
     margin-top: 20px;
 }
