@@ -1,0 +1,465 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body {
+    color: rgb(255, 252, 252);
+    background-color: hsl(0, 0%, 8%);
+    max-height: 100vh;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+}
+
+.navBar {
+    display: flex;
+    height: 25px;
+    width: 40%;
+    gap: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.navBar img {
+    width: 25%;
+    height: 25px;
+}
+
+.navBar .list ul {
+    display: flex;
+    gap: 15px;
+    font-size: 0.8em;
+    padding-top: 5px;
+}
+
+.navBar .list ul li {
+    list-style: none;
+}
+
+.icons {
+    display: flex;
+    height: 25px;
+    gap: 20px;
+    width: 20%;
+    margin-left: 430px;
+    margin-top: 20px;
+
+}
+
+.icons img {
+    height: 20px;
+    width: 10%;
+}
+
+.icons p {
+    font-size: 0.8em;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.icons .profilePage {
+    display: flex;
+    width: 50%;
+}
+
+.icons .profilePage #avatar4 {
+    height: 20px;
+    width: 60%;
+}
+
+.icons .profilePage #dropDown {
+    height: 5px;
+    width: 20%;
+
+}
+
+main .yanimda {
+    background-image: url(/images/main.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 520px;
+        width: 100%;
+    padding-left: 50px;
+    padding-top: 207px;
+
+}
+
+.yanimda #one {
+    height: 315px;
+    width: 35%;
+}
+
+#one .name {
+    height: 130px;
+}
+
+#one .name .mda {
+    font-size: 4.7em;
+    font-weight: 800;
+}
+
+#one .name .kal {
+    font-size: 4.1em;
+    font-weight: 100;
+    padding-left: 115px;
+    line-height: 0px;
+}
+
+#one .badge {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+#one .badge #top10Badge {
+    height: 20px;
+}
+
+.badge p {
+    font-size: 0.95em;
+    font-weight: 600;
+}
+
+article {
+    white-space: pre-line;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.iconContainer {
+    height: 30px;
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    font-size: 0.75em;
+    font: 600;
+    margin-top: 10px;
+}
+
+.iconContainer .playIcon {
+    display: flex;
+    height: 30px;
+    width: 40%;
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.playIcon img {
+    height: 20px;
+}
+
+
+.iconContainer .detailIcon {
+    display: flex;
+    height: 30px;
+    width: 60%;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.39);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.detailIcon img {
+    height: 20px;
+}
+
+.top10Category {
+    height: 180px;
+    width: 100%;
+    margin-top: 26px;
+}
+
+.top10Category p {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.top10CategoryImages {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    position: relative;
+
+}
+
+.top10CategoryImages div #top10CategoryImg {
+    height: 150px;
+    padding-right: 5px;
+}
+
+.top10CategoryImages #nextIcon {
+    height: 20px;
+    position: absolute;
+    right: 30px;
+    top: 60px;
+}
+
+
+.popularCategory {
+    height: 200px;
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 50px;
+}
+
+.popularCategory p {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.popularCategoryImages {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    position: relative;
+
+}
+
+.popularCategoryImages div #popularCategoryImg {
+    height: 150px;
+    padding-right: 5px;
+}
+
+.popularCategoryImages div #downloadBar {
+    height: 3px;
+    width: 50%;
+    padding-left: 50px;
+}
+
+.popularCategoryImages #nextIcon {
+    height: 20px;
+    position: absolute;
+    right: 70px;
+    top: 60px;
+
+}
+
+.seriesCategory {
+    height: 180px;
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 50px;
+}
+
+.seriesCategory p {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.seriesCategoryImages {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    position: relative;
+
+}
+
+.seriesCategoryImages div #seriesCategoryImg {
+    height: 150px;
+    padding-right: 5px;
+}
+
+.seriesCategoryImages #nextIcon {
+    height: 20px;
+    position: absolute;
+    right: 70px;
+    top: 60px;
+
+}
+
+.netflixOriginals {
+    height: 560px;
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 50px;
+}
+
+.netflixOriginals p {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.netflixOriginalsImages {
+    display: flex;
+    height: 530px;
+    width: 100%;
+    position: relative;
+
+}
+
+.netflixOriginalsImages div #netflixOriginalsImg {
+    height: 530px;
+    padding-right: 5px;
+}
+
+.netflixOriginalsImages #nextIcon {
+    height: 20px;
+    position: absolute;
+    right: 120px;
+    top: 260px;
+
+}
+
+.topRankCategory {
+    height: 210px;
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 50px;
+}
+
+.topRankCategory p {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.topRankImages {
+    display: flex;
+    height: 178px;
+    width: 100%;
+    position: relative;
+
+}
+
+.topRankImages div #topRankImg {
+    height: 178px;
+    padding-right: 5px;
+}
+
+.topRankImages div #topRankNumber {
+    height: 178px;
+    padding-right: 5px;
+}
+
+.topRankImages #nextIcon {
+    height: 20px;
+    position: absolute;
+    right: 80px;
+    top: 80px;
+
+}
+
+.moviePoster {
+    height: 180px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.moviePoster p {
+    color: white;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+
+.moviePosterImages #prevIcon {
+    height: 20px;
+    position: absolute;
+    left: 50px;
+    top: 60px;
+
+}
+
+.moviePosterImages {
+    display: flex;
+    height: 148.5px;
+    width: 100%;
+    position: relative;
+
+}
+
+.moviePosterImages div #moviePosterImg {
+    height: 148.5px;
+    padding-right: 5px;
+}
+
+.fictionMovies {
+    height: 180px;
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 50px;
+}
+
+.fictionMovies p {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.fictionMoviesImages {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    position: relative;
+
+}
+
+.fictionMoviesImages div #fictionMoviesImg {
+    height: 150px;
+    padding-right: 5px;
+}
+
+.fictionMoviesImages #nextIcon {
+    height: 20px;
+    position: absolute;
+    right: 70px;
+    top: 60px;
+
+}
+
+footer {
+    max-width: 100%;
+    height: 300px;
+    color: #8a8888;
+    padding-top: 15px;
+    padding-left: 220px;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 0.8em;
+}
+
+footer .socialIcons img {
+    height: 16px;
+   padding: 0px 10px 0px 0px;
+}
+
+.footerList {
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+.footerList ul {
+    list-style: none;
+    line-height: 30px;
+}
+
+.lang {
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 3px;
+    margin-top: 10px;
+    width: 8%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+footer .est{
+    font-size: 1em;
+    margin-top: 20px;
+}
