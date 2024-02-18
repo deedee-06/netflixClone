@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing:content-box;
+    box-sizing: content-box;
 }
 
 body {
@@ -39,24 +39,29 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    border: 1px solid rgb(138, 136, 136);
-    height: 20px;
+    gap: 5px;
+    border: 1px solid rgb(94, 91, 91);
+    background-color: rgba(0, 0, 0, 0.363);
+    height: 25px;
     width: 90px;
-    padding-top: 3px;
+    padding-left: 3px;
 
 }
 
-#language #lang {
-    border: none;
+.option #lang {1
     border-style: none;
-    background-color: rgba(0, 0, 0, 0.027);
-    color: rgb(241, 237, 237);
+    background-color: rgba(0, 0, 0, 0.041);
+    color: rgb(138, 136, 136);
+}
+
+.option #lang option {
+    background-color: rgba(0, 0, 0, 0.63);
+    color: rgb(0, 0, 0);
 }
 
 .option ul #signIn {
     background-color: red;
-    height: 20px;
+    height: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,10 +170,10 @@ main .insight {
 
 main .insight .writeUp {
     flex: 50%;
-    white-space:pre-line;
+    white-space: pre-line;
 }
 
-main .insight .writeUp h2{
+main .insight .writeUp h2 {
     white-space: pre-line;
     font-size: 2em;
 }
@@ -251,7 +256,7 @@ footer {
     align-items: center;
     font-size: 0.7em;
     color: rgb(255, 255, 255);
-    
+
 }
 
 .dropDown img {
@@ -261,8 +266,13 @@ footer {
 
 .dropDown #lang {
     background-color: rgba(0, 0, 0, 0.027);
-    border: none;
+    border-style: none;
     color: rgb(182, 182, 182);
+}
+
+.dropDown #lang option {
+    background-color: rgba(0, 0, 0, 0.63);
+    color: rgb(0, 0, 0);
 }
 
 footer .india {
