@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="CSS/todolist.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+</head>
+<style>
+    body{
+        text-align:center;
+        background: black;
+        background-image: url(Images/adam-winger-VjRpkGtS55w-unsplash.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation: 30s;
+        animation-name: deedee;
+    }
+    @keyframes deedee{
+        0%{
+            background-image: url(Images/samara-doole-peaTniZsUQs-unsplash.jpg);
+        }
+        30%{
+            background-image: url(Images/shari-sirotnak-oM5YoMhTf8E-unsplash.jpg);
+        }
+        50%{
+            background-image: url(Images/todd-trapani-7pCUY-UoIQ0-unsplash.jpg);
+        }
+    }
+</style>
+<body>
+    <div class="intro">
+        <h1>Work To Do</h1>
+    </div>
+
+    <div>
+        <p class="first">Enter text into the input field to add items to your list</p>
+        <p class="second">Click the item to mark it as complete</p>
+        <p class="third">Click the "X" to remove item from the list</p>
+    </div>
+
+    <div>
+        <input type="text" id="userInput" placeholder="new item" maxlength="27">
+        <button id="enter"><i class="fas fa-pencil-alt"></i></button>
+    </div>
+
+    <div>
+        <ul>
+            <!-- <li>Task 1</li> -->
+        </ul>
+    </div>
+</body>
+<script src="Javascript/todolist.js"></script>
+</html>
